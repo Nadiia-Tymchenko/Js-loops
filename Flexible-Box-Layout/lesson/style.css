@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.outerBlock {
+border: 5px solid blue;
+height: 500px;
+}
+
+.innerBlock {
+border: 5px solid greenyellow;
+padding: 10px;
+font-size: 2rem;
+}
+
+.flexParent {
+display: flex;
+flex-direction: row;
+justify-content: center; /*main axic*/
+align-items: center;     /*across-axis*/
+}
+
+.flexChild1 {
+}
+
+.child3 {
+    /* margin-left: auto; */
+}
