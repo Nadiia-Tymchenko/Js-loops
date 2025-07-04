@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  aquamarine;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    border: solid red;
+    padding: 30px 20px;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+p{
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
